@@ -57,7 +57,7 @@
       }    "ability_phased"
     {
     	"BaseClass"             		"ability_datadriven"
-
+		"AbilityTextureName"			"Phase"
     	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
     	"MaxLevel" 						"1"

@@ -1,3 +1,5 @@
+require("notifications")
+
 if GameRound == nil then
     GameRound = class({})
 end
@@ -61,7 +63,7 @@ function GameRound:End()
         for _, player in pairs(self.game.players) do
             player:Income(self.bounty)
         end
-        GameRules:SendCustomMessage("Every player gained <b color='gold'>" .. self.bounty .. "</b> for surviving.", 0, 0)
+	   Notifications:BottomToAll({text="<b color='cyan'>Every player gained</b> <b color='gold'>" .. self.bounty .. " gold</b> <b color='cyan'>for surviving.</b>", duration=5.0})
     end
     self.game:RoundFinished()
 end
