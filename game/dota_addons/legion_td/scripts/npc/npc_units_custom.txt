@@ -12174,7 +12174,7 @@
 
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_devourer"
-    "Ability2"                          "butcher_rot"
+    "Ability2"                          "pudge_rot_lua"
     "Ability3"                          "ability_empty_3"
   
 
@@ -12593,7 +12593,7 @@
 
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_abomination"
-        "Ability2"                          "butcher_rot"
+        "Ability2"                          "pudge_rot_lua"
         "Ability3"                          "ability_empty_3"
   
 
@@ -13400,8 +13400,8 @@
     "Vscripts"              "ai/undeadbuilder/ai_devourer.lua"
 
     "Ability4"                          "sell"
-    "Ability1"                          "devour"
-    "Ability2"                          "butcher_rot"
+    "Ability1"                          "pudge_dismember_lua"
+    "Ability2"                          "pudge_rot_lua"
     "Ability3"                          "ability_empty_3"
   
 
@@ -14668,7 +14668,7 @@
 
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_abomination"
-    "Ability2"                          "butcher_rot"
+    "Ability2"                          "pudge_rot_lua"
     "Ability3"                          "ability_empty_3"
   
 

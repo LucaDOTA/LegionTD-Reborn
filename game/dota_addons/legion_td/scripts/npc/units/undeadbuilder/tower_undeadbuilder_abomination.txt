@@ -13,7 +13,7 @@
 
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_devourer"
-    "Ability2"                          "butcher_rot"
+    "Ability2"                          "pudge_rot_lua"
     "Ability3"                          "ability_empty_3"
   
 

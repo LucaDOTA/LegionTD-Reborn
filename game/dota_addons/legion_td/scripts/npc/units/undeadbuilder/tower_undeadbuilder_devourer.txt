@@ -12,8 +12,8 @@
     "Vscripts"              "ai/undeadbuilder/ai_devourer.lua"
 
     "Ability4"                          "sell"
-    "Ability1"                          "devour"
-    "Ability2"                          "butcher_rot"
+    "Ability1"                          "pudge_dismember_lua"
+    "Ability2"                          "pudge_rot_lua"
     "Ability3"                          "ability_empty_3"
   
 
