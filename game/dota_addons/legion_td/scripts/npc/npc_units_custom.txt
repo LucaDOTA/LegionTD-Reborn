@@ -12915,7 +12915,7 @@
 
         "Ability4"                          "sell"
         "Ability1"                          "magic_resistance"
-        "Ability2"                          "ability_empty_2"
+        "Ability2"                          "frostmourne_datadriven"
         "Ability3"                          "ability_empty_3"
 
         // Armor
@@ -14122,7 +14122,7 @@
 
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_corrupted_golem"
-        "Ability2"                          "ability_empty_2"
+        "Ability2"                          "frostmourne_datadriven"
         "Ability3"                          "ability_empty_3"
 
         // Armor
@@ -14314,7 +14314,7 @@
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_golem"
         "Ability2"                          "undeadbuilder_upgrade_flesh_ripper"
-        "Ability3"                          "abaddon_frostmourne"
+        "Ability3"                          "frostmourne_datadriven"
 
         // Armor
         //----------------------------------------------------------------

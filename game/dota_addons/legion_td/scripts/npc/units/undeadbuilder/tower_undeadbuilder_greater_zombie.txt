@@ -14,7 +14,7 @@
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_golem"
     "Ability2"                          "undeadbuilder_upgrade_flesh_ripper"
-    "Ability3"                          "abaddon_frostmourne"
+    "Ability3"                          "frostmourne_datadriven"
 
     // Armor
     //----------------------------------------------------------------
