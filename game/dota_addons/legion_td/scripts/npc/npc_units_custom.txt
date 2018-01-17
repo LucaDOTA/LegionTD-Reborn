@@ -14304,7 +14304,7 @@
         //----------------------------------------------------------------
         "BaseClass"             "npc_dota_creature"
         "Model"                 "models/heroes/undying/undying.vmdl"
-        "ModelScale"            "0.55"
+        "ModelScale"            "0.75"
         "SoundSet"                      "Hero_Undying"
         "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_undying.vsndevts"
         "Level"                 "1"
@@ -14314,7 +14314,7 @@
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_golem"
         "Ability2"                          "undeadbuilder_upgrade_flesh_ripper"
-        "Ability3"                          "ability_empty_3"
+        "Ability3"                          "abaddon_frostmourne"
 
         // Armor
         //----------------------------------------------------------------
@@ -15469,7 +15469,7 @@
 
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_greater_zombie"
-        "Ability2"                          "ability_empty_2"
+        "Ability2"                          "abaddon_frostmourne"
         "Ability3"                          "ability_empty_3"
 
         // Armor

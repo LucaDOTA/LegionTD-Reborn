@@ -13,7 +13,7 @@
 
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_greater_zombie"
-    "Ability2"                          "ability_empty_2"
+    "Ability2"                          "abaddon_frostmourne"
     "Ability3"                          "ability_empty_3"
 
     // Armor
