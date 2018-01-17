@@ -12574,8 +12574,14 @@
                 }
             }
         "AttachWearables"
-        {
-        }
+			{
+                    "Wearable1" { "ItemDef" "6443" }
+                    "Wearable2" { "ItemDef" "5912" }
+                    "Wearable3" { "ItemDef" "5913" }
+                    "Wearable4" { "ItemDef" "5915" }
+                    "Wearable5" { "ItemDef" "5916" }
+					"Wearable6" { "ItemDef" "5917" }
+            }
         }
     }
     "tower_undeadbuilder_butcher"
@@ -13141,11 +13147,11 @@
         "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_viper.vsndevts"
         "Level"                 "1"
         "HealthBarOffset"       "120"
-        "Vscripts"              "ai/undeadbuilder/ai_nether_drake.lua"
+        "Vscripts"              "ai_default"
 
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_possessed_corruptor"
-        "Ability2"                          "dark_venom"
+        "Ability2"                          "viper_corrosive_skin_datadriven"
         "Ability3"                          "ability_empty_3"
 
         // Armor
@@ -13222,8 +13228,10 @@
                 }
             }
         "AttachWearables"
-        {
-        }
+			{
+                    "Wearable1" { "ItemDef" "9630" }
+                    "Wearable2" { "ItemDef" "7811" }
+			}
         }
     }
     "tower_undeadbuilder_cultist"
@@ -13318,8 +13326,14 @@
                 }
             }
         "AttachWearables"
-        {
-        }
+        	{
+                    "Wearable1" { "ItemDef" "5912" }
+                    "Wearable2" { "ItemDef" "5913" }
+                    "Wearable3" { "ItemDef" "5914" }
+                    "Wearable4" { "ItemDef" "5915" }
+                    "Wearable5" { "ItemDef" "5916" }
+					"Wearable6" { "ItemDef" "5917" }
+			}
         }
     }
     "tower_naturebuilder_spider"
@@ -13707,7 +13721,13 @@
             }
         "AttachWearables"
         {
-        }
+                    "Wearable1" { "ItemDef" "5992" }
+                    "Wearable2" { "ItemDef" "5996" }
+                    "Wearable3" { "ItemDef" "5994" }
+                    "Wearable4" { "ItemDef" "5997" }
+                    "Wearable5" { "ItemDef" "6000" }
+					"Wearable6" { "ItemDef" "6001" }
+                }
         }
     }
     "tower_naturebuilder_treebeard"
@@ -14173,8 +14193,14 @@
                 }
             }
         "AttachWearables"
-        {
-        }
+         {
+                    "Wearable1" { "ItemDef" "6137" }
+                    "Wearable2" { "ItemDef" "6020" }
+                    "Wearable3" { "ItemDef" "6021" }
+                    "Wearable4" { "ItemDef" "6139" }
+                    "Wearable5" { "ItemDef" "6138" }
+					"Wearable6" { "ItemDef" "6140" }
+		}
         }
     }
     "tower_undeadbuilder_golem"
@@ -14555,8 +14581,14 @@
                 }
             }
         "AttachWearables"
-        {
-        }
+			{
+                    "Wearable1" { "ItemDef" "7574" }
+                    "Wearable2" { "ItemDef" "7565" }
+                    "Wearable3" { "ItemDef" "7460" }
+                    "Wearable4" { "ItemDef" "7573" }
+                    "Wearable5" { "ItemDef" "7575" }
+					"Wearable6" { "ItemDef" "7577" }
+			}
         }
     }
     "tower_undeadbuilder_lifestealer"
@@ -14765,11 +14797,11 @@
         "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_viper.vsndevts"
         "Level"                 "1"
         "HealthBarOffset"       "120"
-        "Vscripts"              "ai/undeadbuilder/ai_nether_drake.lua"
+        "Vscripts"              "ai_default"
 
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_corruptor"
-        "Ability2"                          "dark_venom"
+        "Ability2"                          "ability_empty_2"
         "Ability3"                          "ability_empty_3"
 
         // Armor
@@ -14846,8 +14878,10 @@
                 }
             }
         "AttachWearables"
-        {
-        }
+			{
+                    "Wearable1" { "ItemDef" "611" }
+                    "Wearable2" { "ItemDef" "623" }
+			}
         }
     }
     "tower_undeadbuilder_possessed_corruptor"
@@ -14864,8 +14898,8 @@
         "Vscripts"              "ai/undeadbuilder/ai_nether_drake.lua"
 
         "Ability4"                          "sell"
-        "Ability1"                          "dark_venom"
-        "Ability2"                          "ability_empty_2"
+        "Ability2"                          "viper_corrosive_skin_datadriven"
+        "Ability1"                          "sven_warcry_datadriven"
         "Ability3"                          "ability_empty_3"
 
         // Armor
@@ -14942,8 +14976,10 @@
                 }
             }
         "AttachWearables"
-        {
-        }
+			{
+                    "Wearable1" { "ItemDef" "9233" }
+                    "Wearable2" { "ItemDef" "7995" }
+			}
         }
     }
     "tower_undeadbuilder_recomposer"
@@ -15039,7 +15075,13 @@
             }
         "AttachWearables"
         {
-        }
+                    "Wearable1" { "ItemDef" "8750" }
+                    "Wearable2" { "ItemDef" "8751" }
+                    "Wearable3" { "ItemDef" "8752" }
+                    "Wearable4" { "ItemDef" "8826" }
+                    "Wearable5" { "ItemDef" "8827" }
+					"Wearable6" { "ItemDef" "8828" }
+		}
         }
     }
     "tower_undeadbuilder_the_forgotten_one"
