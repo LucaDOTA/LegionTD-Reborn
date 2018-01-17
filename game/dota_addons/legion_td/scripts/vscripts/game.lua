@@ -935,9 +935,9 @@ end
 function Game:FormatSkipMessage(votes, remaining)
     local message = ""
     if votes == 1 then
-        message = "<b color='LawnGreen'>" .. votes .. "</b> <b color='cyan'>player is ready for the next round.</b><b color='LawnGreen'> " .. remaining .. " </b><b color='cyan'>votes needed.</b>"
+        message = "<b color='LawnGreen'>" .. votes .. " player</b> is ready for the next round.<b color='LawnGreen'> " .. remaining .. " votes</b> needed."
     else
-        message = "<b color='LawnGreen'>" .. votes .. "</b> <b color='cyan'>players are ready for the next round.</b><b color='LawnGreen'> " .. remaining .. " </b><b color='cyan'>votes needed.</b>"
+        message = "<b color='LawnGreen'>" .. votes .. " players</b> are ready for the next round.<b color='LawnGreen'> " .. remaining .. " votes</b> needed.</b>"
     end
     GameRules:SendCustomMessage(message, 0, 0)
 end
