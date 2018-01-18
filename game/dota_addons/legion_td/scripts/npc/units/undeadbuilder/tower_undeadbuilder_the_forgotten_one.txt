@@ -9,11 +9,11 @@
     "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_nightstalker.vsndevts"
     "Level"                 "1"
     "HealthBarOffset"       "120"
-    "Vscripts"              "ai/ai_default.lua"
+    "Vscripts"              "ai/undeadbuilder/ai_forgotten_one.lua"
 
     "Ability1"              "splash_attack"
-    "Ability2"              "ability_empty_2"
-    "Ability3"              "ability_empty_3"
+    "Ability2"              "nevermore_dark_lord_datadriven"
+    "Ability3"              "ursa_overpower_datadriven"
     "Ability4"              "sell"
     
     // Armor

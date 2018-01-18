@@ -9193,64 +9193,65 @@
 
     }
     "unit_space_cow"
-    {
-    	"BaseClass"	"npc_dota_creature"
-		"Model"	"models/creeps/item_creeps/i_creep_necro_warrior/necro_warrior.vmdl"
-		"ModelScale"	"0.75"
-		"GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
-    	"Level"	"1"
-    	"HealthBarOffset"	"140"
-    	"Vscripts"	"ai/ai_default.lua"
-    	"ArmorPhysical"	"1"
-    	"MagicalResistance"	"0"
-    	"AttackCapabilities"	"DOTA_UNIT_CAP_MELEE_ATTACK"
-    	"AttackDamageType"	"DAMAGE_TYPE_ArmorPhysical"
-    	"AttackDamageMin"	"6.50"
-    	"AttackDamageMax"	"7"
-    	"AttackRate"	"1.25"
-    	"AttackAnimationPoint"	"0.5"
-    	"AttackAcquisitionRange"	"850"
-    	"AttackRange"	"90"
-    	"LegionAttackType"	"normal"
-    	"LegionDefendType"	"heavy"
-    	"LegionExperience"	"12"
-    	"LegionFraction"	"wave"
-    	"BountyGoldMin"	"5.0"
-    	"BountyGoldMax"	"5.0"
-    	"BoundsHullName"	"DOTA_HULL_SIZE_SMALL"
-    	"CollisionSize"	"50"
-    	"RingRadius"	"50"
-    	"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
-    	"MovementSpeed"	"300"
-    	"MovementTurnRate"	"0.6"
-    	"StatusHealth"	"70"
-    	"StatusHealthRegen"	"0"
-    	"StatusMana"	"0"
-    	"StatusManaRegen"	"0"
-    	"VisionDaytimeRange"	"1400"
-    	"VisionNighttimeRange"	"800"
-    	"TeamName"	"DOTA_TEAM_NEUTRALS"
-    	"CombatClassAttack"	"DOTA_COMBAT_CLASS_ATTACK_BASIC"
-    	"CombatClassDefend"	"DOTA_COMBAT_CLASS_DEFEND_BASIC"
-    	"UnitRelationShipClass"	"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
-    	"Creature"
-    	{
-    		"DisableClumpingBehavior"	"1"
-    		"DefaultState"	"Invade"
-    		"States"
-    		{
-    			"Invade"
-    			{
-    				"Name"	"Invade"
-    				"Aggression"	"100.0"
-    				"Avoidance"	"0.0"
-    				"Support"	"0.0"
-    			}
+{
+	"BaseClass"	"npc_dota_creature"
+	"Model"	"models/creeps/item_creeps/i_creep_necro_warrior/necro_warrior.vmdl"
+	"ModelScale"	"0.55"
+	"GameSoundsFile"    "soundevents/game_sounds_creeps.vsndevts"
+	"Level"	"1"
+	"HealthBarOffset"	"140"
+	"Vscripts"	"ai/ai_default.lua"
+	"ArmorPhysical"	"1"
+	"MagicalResistance"	"0"
+	"AttackCapabilities"	"DOTA_UNIT_CAP_MELEE_ATTACK"
+	"AttackDamageType"	"DAMAGE_TYPE_ArmorPhysical"
+	"AttackDamageMin"	"6.50"
+	"AttackDamageMax"	"7"
+	"AttackRate"	"1.25"
+	"AttackAnimationPoint"	"0.5"
+	"AttackAcquisitionRange"	"850"
+	"AttackRange"	"90"
+	"LegionAttackType"	"normal"
+	"LegionDefendType"	"heavy"
+	"LegionExperience"	"12"
+	"LegionFraction"	"wave"
+	"BountyGoldMin"	"5.0"
+	"BountyGoldMax"	"5.0"
+	"BoundsHullName"	"DOTA_HULL_SIZE_SMALL"
+	"CollisionSize"	"50"
+	"RingRadius"	"50"
+	"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
+	"MovementSpeed"	"300"
+	"MovementTurnRate"	"0.6"
+	"StatusHealth"	"70"
+	"StatusHealthRegen"	"0"
+	"StatusMana"	"0"
+	"StatusManaRegen"	"0"
+	"VisionDaytimeRange"	"1400"
+	"VisionNighttimeRange"	"800"
+	"TeamName"	"DOTA_TEAM_NEUTRALS"
+	"CombatClassAttack"	"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+	"CombatClassDefend"	"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+	"UnitRelationShipClass"	"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+	"Creature"
+	{
+		"DisableClumpingBehavior"	"1"
+		"DefaultState"	"Invade"
+		"States"
+		{
+			"Invade"
+			{
+				"Name"	"Invade"
+				"Aggression"	"100.0"
+				"Avoidance"	"0.0"
+				"Support"	"0.0"
+			}
 
-    		}
-    	}
+		}
 
-    }
+	}
+
+}
     "incomeunit_jellyfish"
     {
         "BaseClass" "npc_dota_creature"
@@ -14599,99 +14600,99 @@
         }
     }
     "tower_undeadbuilder_lifestealer"
-    {
-        // General
-        //----------------------------------------------------------------
-        "BaseClass"             "npc_dota_creature"
-        "Model"                 "models/heroes/life_stealer/life_stealer.vmdl"
-        "ModelScale"            "0.55"
-        "SoundSet"                      "Hero_Viper"
-        "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_nightstalker.vsndevts"
-        "Level"                 "1"
-        "HealthBarOffset"       "120"
-        "Vscripts"              "ai/undeadbuilder/ai_lifestealer.lua"
+{
+    // General
+    //----------------------------------------------------------------
+    "BaseClass"             "npc_dota_creature"
+    "Model"                 "models/heroes/life_stealer/life_stealer.vmdl"
+    "ModelScale"            "0.55"
+    "SoundSet"                      "Hero_Viper"
+    "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_nightstalker.vsndevts"
+    "Level"                 "1"
+    "HealthBarOffset"       "120"
+    "Vscripts"  			"ai/ai_default.lua"
 
-        "Ability4"                          "sell"
-        "Ability1"                          "undeadbuilder_upgrade_consumer"
-        "Ability2"                          "feast"
-        "Ability3"                          "rage"
+    "Ability4"                          "sell"
+    "Ability1"                          "undeadbuilder_upgrade_consumer"
+    "Ability2"                          "feast"
 
-        // Armor
-        //----------------------------------------------------------------
-        "ArmorPhysical"         "6"
-        "MagicalResistance"     "0"
+    // Armor
+    //----------------------------------------------------------------
+    "ArmorPhysical"         "6"
+    "MagicalResistance"     "0"
 
-        // Attack
-        //----------------------------------------------------------------
-        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-        "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-        "AttackDamageMin"       "40"
-        "AttackDamageMax"       "70"
-        "AttackRate"            "0.6"
-        "AttackAnimationPoint"  "0.2"
-        "AttackAcquisitionRange" "850"
-        "AttackRange"           "90"
+    // Attack
+    //----------------------------------------------------------------
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
+    "AttackDamageMin"       "40"
+    "AttackDamageMax"       "70"
+    "AttackRate"            "0.6"
+    "AttackAnimationPoint"  "0.2"
+    "AttackAcquisitionRange" "850"
+    "AttackRange"           "90"
     
-        "LegionAttackType"     "pierce"
-        "LegionDefendType"     "light"
-        "LegionFraction"       "undead"
+    "LegionAttackType"     "pierce"
+    "LegionDefendType"     "light"
+    "LegionFraction"       "undead"
 
-        // Bounty
-        //----------------------------------------------------------------
-        "BountyGoldMin"         "0"
-        "BountyGoldMax"         "0"
+    // Bounty
+    //----------------------------------------------------------------
+    "BountyGoldMin"         "0"
+    "BountyGoldMax"         "0"
 
-        // Bounds
-        //----------------------------------------------------------------
-        "BoundsHullName"        "DOTA_HULL_SIZE_HERO"
-        "RingRadius"            "30"
+    // Bounds
+    //----------------------------------------------------------------
+    "BoundsHullName"        "DOTA_HULL_SIZE_HERO"
+    "RingRadius"            "30"
 
-        // Movement
-        //----------------------------------------------------------------
-        "MovementCapabilities"  "DOTA_UNIT_CAP_MOVE_GROUND"
-        "MovementSpeed"         "270"
-        "MovementTurnRate"      "0.6"
+    // Movement
+    //----------------------------------------------------------------
+    "MovementCapabilities"  "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"         "270"
+    "MovementTurnRate"      "0.6"
 
-        // Status
-        //----------------------------------------------------------------
-        "StatusHealth"          "400"
-        "StatusHealthRegen"     "0"
-        "StatusMana"            "0"
-        "StatusManaRegen"       "0"
+    // Status
+    //----------------------------------------------------------------
+    "StatusHealth"          "400"
+    "StatusHealthRegen"     "0"
+    "StatusMana"            "0"
+    "StatusManaRegen"       "0"
 
-        // Vision
-        //----------------------------------------------------------------
-        "VisionDaytimeRange"    "1400"
-        "VisionNighttimeRange"  "800"
+    // Vision
+    //----------------------------------------------------------------
+    "VisionDaytimeRange"    "1400"
+    "VisionNighttimeRange"  "800"
 
-        // Team
-        //----------------------------------------------------------------
-        "TeamName"              "DOTA_TEAM_NEUTRALS"
-        "CombatClassAttack"     "DOTA_COMBAT_CLASS_ATTACK_BASIC"
-        "CombatClassDefend"     "DOTA_COMBAT_CLASS_DEFEND_BASIC"
-        "UnitRelationShipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+    // Team
+    //----------------------------------------------------------------
+    "TeamName"              "DOTA_TEAM_NEUTRALS"
+    "CombatClassAttack"     "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+    "CombatClassDefend"     "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+    "UnitRelationShipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 
-        // Creature Data
-        //----------------------------------------------------------------
-        "Creature"
+    // Creature Data
+    //----------------------------------------------------------------
+    "Creature"
+    {
+        "DisableClumpingBehavior"       "1"
+        "DefaultState"              "Invade"
+        "States"
         {
-            "DisableClumpingBehavior"       "1"
-            "DefaultState"              "Invade"
-            "States"
+            "Invade"
             {
-                "Invade"
-                {
-                    "Name"              "Invade"
-                    "Aggression"        "100.0"
-                    "Avoidance"         "0.0"
-                    "Support"           "0.0"
-                }
+                "Name"              "Invade"
+                "Aggression"        "100.0"
+                "Avoidance"         "0.0"
+                "Support"           "0.0"
             }
-        "AttachWearables"
-        {
         }
-        }
+    "AttachWearables"
+    {
     }
+    }
+}
+
    "tower_undeadbuilder_mutilated_butcher"
 {
     // General
@@ -15091,7 +15092,7 @@
 		}
         }
     }
-   "tower_undeadbuilder_the_forgotten_one"
+  "tower_undeadbuilder_the_forgotten_one"
 {
     // General
     //----------------------------------------------------------------
@@ -15102,11 +15103,11 @@
     "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_nightstalker.vsndevts"
     "Level"                 "1"
     "HealthBarOffset"       "120"
-    "Vscripts"              "ai/ai_default.lua"
+    "Vscripts"              "ai/undeadbuilder/ai_forgotten_one.lua"
 
     "Ability1"              "splash_attack"
-    "Ability2"              "ability_empty_2"
-    "Ability3"              "ability_empty_3"
+    "Ability2"              "nevermore_dark_lord_datadriven"
+    "Ability3"              "ursa_overpower_datadriven"
     "Ability4"              "sell"
     
     // Armor
@@ -15206,7 +15207,7 @@
         "Vscripts"              "ai/ai_default.lua"
 
         "Ability1"              "undeadbuilder_upgrade_evil_spirit"
-        "Ability2"              "splash_attack"
+        "Ability2"              "ability_empty_2"
         "Ability3"              "ability_empty_3"
         "Ability4"              "sell"
 
@@ -15305,7 +15306,7 @@
 
     "Ability1"                          "undeadbuilder_upgrade_the_forgotten_one"
     "Ability2"              "splash_attack"
-    "Ability3"              "ability_empty_3"
+    "Ability3"              "nevermore_dark_lord_datadriven"
     "Ability4"                          "sell"
     
     // Armor

@@ -14,7 +14,7 @@
 
     "Ability1"                          "undeadbuilder_upgrade_the_forgotten_one"
     "Ability2"              "splash_attack"
-    "Ability3"              "ability_empty_3"
+    "Ability3"              "nevermore_dark_lord_datadriven"
     "Ability4"                          "sell"
     
     // Armor

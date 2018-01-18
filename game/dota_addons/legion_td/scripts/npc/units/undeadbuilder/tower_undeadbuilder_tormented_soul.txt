@@ -12,7 +12,7 @@
     "Vscripts"              "ai/ai_default.lua"
 
     "Ability1"              "undeadbuilder_upgrade_evil_spirit"
-    "Ability2"              "splash_attack"
+    "Ability2"              "ability_empty_2"
     "Ability3"              "ability_empty_3"
     "Ability4"              "sell"
 
