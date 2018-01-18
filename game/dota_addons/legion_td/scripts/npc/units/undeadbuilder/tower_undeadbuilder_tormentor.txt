@@ -92,9 +92,9 @@
         }
     "AttachWearables"
     {
-        "Wearable1" { "ItemDef" "387" }
-        "Wearable2" { "ItemDef" "486" }
-        "Wearable3" { "ItemDef" "488" }
+        "Wearable1" { "ItemDef" "7193" }
+        "Wearable2" { "ItemDef" "7279" }
+        "Wearable3" { "ItemDef" "7188" }
     }
     }
 }
