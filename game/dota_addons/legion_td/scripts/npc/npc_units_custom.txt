@@ -14703,11 +14703,11 @@
     "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts"
     "Level"                 "1"
     "HealthBarOffset"       "120"
-    "Vscripts"              "ai/undeadbuilder/ai_butcher.lua"
+    "Vscripts"              "ai/ai_default.lua"
 
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_abomination"
-    "Ability2"                          "pudge_rot_lua"
+    "Ability2"                          "ability_empty_2"
     "Ability3"                          "ability_empty_3"
   
 
@@ -14784,7 +14784,7 @@
                 "Support"           "0.0"
             }
         }
-	           	"AttachWearables"
+	           "AttachWearables"
     	        {
     	            "Wearable1" { "ItemDef" "4759" } // Left Hand Weapon
 					"Wearable2"	{ "ItemDef" "4760" } // Heavy Tenderizer
