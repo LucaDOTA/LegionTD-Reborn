@@ -4,7 +4,7 @@
     //-------------------------------------------------------------------------------------------------------------
     "BaseClass"             "black_dragon_splash_attack"
     "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
-    "AbilityTextureName"            "splash_attack"
+    "AbilityTextureName"            "splash"
 
     // Special
     //-------------------------------------------------------------------------------------------------------------

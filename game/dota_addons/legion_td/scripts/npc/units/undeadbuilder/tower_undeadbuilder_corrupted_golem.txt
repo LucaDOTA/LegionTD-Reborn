@@ -14,7 +14,6 @@
     "Ability4"                          "sell"
     "Ability1"                          "magic_resistance"
     "Ability2"                          "frostmourne_datadriven"
-    "Ability3"                          "ability_empty_3"
 
     // Armor
     //----------------------------------------------------------------

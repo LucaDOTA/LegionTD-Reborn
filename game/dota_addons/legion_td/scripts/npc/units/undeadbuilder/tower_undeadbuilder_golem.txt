@@ -14,11 +14,10 @@
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_corrupted_golem"
     "Ability2"                          "frostmourne_datadriven"
-    "Ability3"                          "ability_empty_3"
 
     // Armor
     //----------------------------------------------------------------
-    "ArmorPhysical"         "5"
+    "ArmorPhysical"         "8"
     "MagicalResistance"     "0"
 
     // Attack

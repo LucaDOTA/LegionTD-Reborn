@@ -6219,7 +6219,7 @@
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT"
     	"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_BASIC"
-    	"AbilityGoldCost"	"80"
+    	"AbilityGoldCost"	"105"
     	"AbilityCooldown"	"1.0"
     	"AbilityCastRange"	"125"
     	"OnSpellStart"
@@ -6402,7 +6402,7 @@
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT"
     	"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_BASIC"
-    	"AbilityGoldCost"	"120"
+    	"AbilityGoldCost"	"150"
     	"AbilityCooldown"	"1.0"
     	"AbilityCastRange"	"125"
     	"OnSpellStart"
@@ -6474,7 +6474,7 @@
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT"
     	"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_BASIC"
-    	"AbilityGoldCost"	"85"
+    	"AbilityGoldCost"	"110"
     	"AbilityCooldown"	"1.0"
     	"AbilityCastRange"	"125"
     	"OnSpellStart"
@@ -6695,7 +6695,7 @@
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT"
     	"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_BASIC"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"30"
     	"AbilityCooldown"	"1.0"
     	"AbilityCastRange"	"125"
     	"OnSpellStart"
@@ -6987,7 +6987,7 @@
     	"AbilityTextureName"	"spawn_lifestealer"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"230"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -7052,7 +7052,7 @@
     	"AbilityTextureName"	"spawn_golem"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"180"
+    	"AbilityGoldCost"	"200"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -7184,7 +7184,7 @@
     	"AbilityTextureName"	"spawn_nether_drake"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"120"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -7354,7 +7354,7 @@
     	"AbilityTextureName"	"spawn_acolyte"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"100"
+    	"AbilityGoldCost"	"250"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -7486,7 +7486,7 @@
     	"AbilityTextureName"	"spawn_butcher"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"140"
+    	"AbilityGoldCost"	"200"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -7729,7 +7729,7 @@
     	"AbilityTextureName"	"spawn_acolyte"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"120"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -7861,7 +7861,7 @@
     	"AbilityTextureName"	"spawn_butcher"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"80"
+    	"AbilityGoldCost"	"110"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -7926,7 +7926,7 @@
     	"AbilityTextureName"	"spawn_tormented_soul"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"80"
+    	"AbilityGoldCost"	"180"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -8136,7 +8136,7 @@
     	"AbilityTextureName"	"spawn_zombie"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"180"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -8201,7 +8201,7 @@
     	"AbilityTextureName"	"spawn_acolyte"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"150"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -8300,7 +8300,7 @@
     	"AbilityTextureName"	"spawn_golem"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"110"
+    	"AbilityGoldCost"	"120"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -8430,7 +8430,7 @@
     	"AbilityTextureName"	"spawn_vampire"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"130"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -8560,7 +8560,7 @@
     	"AbilityTextureName"	"spawn_zombie"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"65"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -8692,7 +8692,7 @@
     	"AbilityTextureName"	"spawn_acolyte"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"250"
+    	"AbilityGoldCost"	"300"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -8757,7 +8757,7 @@
     	"AbilityTextureName"	"spawn_lifestealer"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"140"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -8887,7 +8887,7 @@
     	"AbilityTextureName"	"spawn_nether_drake"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"180"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -9147,7 +9147,7 @@
     	"AbilityTextureName"	"spawn_acolyte"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"120"
+    	"AbilityGoldCost"	"200"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -9212,7 +9212,7 @@
     	"AbilityTextureName"	"spawn_tormented_soul"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"90"
+    	"AbilityGoldCost"	"400"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -9277,7 +9277,7 @@
     	"AbilityTextureName"	"spawn_tormented_soul"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"180"
+    	"AbilityGoldCost"	"250"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -9454,14 +9454,69 @@
 			"rot_damage"				"35 60 85 110"
 		}
 	}
-	
-}   "undeadbuilder_upgrade_vampire_king"
+}   
+
+// Rewrite of the Pudge Rot ability
+// Author: Valve
+// Date: 25.09.2015.
+"improved_pudge_rot_lua"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------														
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+	"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+	"FightRecapLevel"				"1"
+	"BaseClass"						"ability_lua"
+	"AbilityTextureName"			"improved_pudge_rot"
+	"ScriptFile"					"abilities/undeadbuilder/improved_pudge_rot_lua.lua"
+
+	// Precache
+	//-------------------------------------------------------------------------------------------------------------
+	"precache"
+	{
+		"soundfile"			"soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts"
+		"particle"			"particles/units/heroes/hero_pudge/pudge_rot.vpcf"
+	}
+		
+	// Casting
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilityCastPoint"				"0 0 0 0"
+
+
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"rot_radius"			"250"
+		}
+		"02"
+		{
+			"var_type"				"FIELD_FLOAT"
+			"rot_tick"				"0.2"
+		}
+		"03"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"rot_slow"				"-20 -22 -24 -26"
+		}
+		"04"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"rot_damage"				"65"
+		}
+	}
+}
+"undeadbuilder_upgrade_vampire_king"
     {
     	"BaseClass"	"ability_datadriven"
     	"AbilityTextureName"	"spawn_vampire"
     	"MaxLevel"	"1"
     	"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    	"AbilityGoldCost"	"50"
+    	"AbilityGoldCost"	"175"
     	"AbilityCooldown"	"1.0"
     	"OnSpellStart"
     	{
@@ -10098,7 +10153,7 @@
         "BaseClass"             "ability_datadriven"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
         "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_YES"
-        "AbilityTextureName"            "necronomicon_warrior_sight"
+        "AbilityTextureName"            "frenzy"
 
 
         // Stats
@@ -10148,7 +10203,7 @@
 	"BaseClass"				"ability_datadriven"
 	"AbilityBehavior"		"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 	"SpellImmunityType"		"SPELL_IMMUNITY_ENEMIES_YES"
-	"AbilityTextureName"	"abaddon_frostmourne"
+	"AbilityTextureName"	"bacteria"
 	"MaxLevel"				"1"
 	
 
@@ -10281,7 +10336,7 @@
 
         // Damage.
         //-------------------------------------------------------------------------------------------------------------
-        "AbilityDamage"                 "30"
+        "AbilityDamage"                 "50"
 
         // Cost
         //-------------------------------------------------------------------------------------------------------------
@@ -10478,7 +10533,7 @@
 
         // Damage.
         //-------------------------------------------------------------------------------------------------------------
-        "AbilityDamage"                 "50"
+        "AbilityDamage"                 "100"
 
         // Cost
         //-------------------------------------------------------------------------------------------------------------
@@ -10671,7 +10726,7 @@
         //-------------------------------------------------------------------------------------------------------------
         "BaseClass"             "ability_datadriven"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
-        "AbilityTextureName"            "rubick_null_field"
+        "AbilityTextureName"            "resistance"
 
         // Special
         //-------------------------------------------------------------------------------------------------------------
@@ -10735,7 +10790,7 @@
 
         // Damage.
         //-------------------------------------------------------------------------------------------------------------
-        "AbilityDamage"                 "70"
+        "AbilityDamage"                 "150"
 
         // Cost
         //-------------------------------------------------------------------------------------------------------------
@@ -11091,7 +11146,7 @@
         //-------------------------------------------------------------------------------------------------------------
         "BaseClass"             "black_dragon_splash_attack"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
-        "AbilityTextureName"            "splash_attack"
+        "AbilityTextureName"            "splash"
 
         // Special
         //-------------------------------------------------------------------------------------------------------------
@@ -18504,7 +18559,7 @@
 	"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 	"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
 	"OnCastbar"					"0"
-	"AbilityTextureName"			"nevermore_dark_lord"
+	"AbilityTextureName"			"nevermore_dark_lord_datadriven"
 	"MaxLevel"						"1"
 	
 	
@@ -18660,6 +18715,104 @@
 			"Properties"
 			{
 				"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%attack_speed_bonus_pct"
+			}
+		}
+	}
+}
+
+"sandking_caustic_finale_datadriven"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"						"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+	"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+	"AbilityTextureName"			"deathlust"
+	"MaxLevel"						"1"
+	
+	"AbilityDuration"				"5.0"
+	"AbilityDamage"					"150"
+	
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"caustic_finale_radius"		"400"
+		}
+		"02"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"caustic_finale_damage"		"150"
+		}
+		"03"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"caustic_finale_duration"	"5.0"
+		}
+	}
+	
+	// Data driven
+	//-------------------------------------------------------------------------------------------------------------
+	"precache"
+	{
+		"soundfile"				"soundevents/game_sounds_heroes/game_sounds_sandking.vsndevts"
+		"particle"				"particles/units/heroes/hero_sandking/sandking_caustic_finale_explode.vpcf"
+	}
+	
+	"Modifiers"
+	{
+		"modifier_caustic_finale_buff_datadriven"
+		{
+			"IsHidden"			"0"
+			"IsPurgable"		"0"
+			"Passive"			"1"
+			"OnAttack"
+			{
+				"ApplyModifier"
+				{
+					"ModifierName"		"modifier_caustic_finale_debuff_datadriven"
+					"Target"
+					{
+						"Center"		"TARGET"
+						"Types"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+					}
+				}
+			}
+		}
+		
+		"modifier_caustic_finale_debuff_datadriven"
+		{
+			"IsDebuff"			"1"
+			"IsPurgable"		"0"
+			"Duration"			"%caustic_finale_duration"
+			
+			"OnDestroy"
+			{
+				"RunScript"
+				{
+					"ScriptFile"		"abilities/undeadbuilder/caustic_finale.lua"
+					"Function"			"caustic_finale_dead_effect"
+				}
+			}
+			
+			"OnDeath"
+			{
+				"Damage"
+				{
+					"Type"				"DAMAGE_TYPE_MAGICAL"
+					"Damage"			"%caustic_finale_damage"
+					"Target"
+					{
+						"Center"		"UNIT"
+						"Radius"		"%caustic_finale_radius"
+						"Teams"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+						"Types"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_MECHANICAL"
+					}
+				}
 			}
 		}
 	}

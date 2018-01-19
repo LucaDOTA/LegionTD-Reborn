@@ -48,7 +48,7 @@ BehaviorStartRot = {}
 
 -- turn on rot when there's at least one enemy in range
 function BehaviorStartRot:Evaluate()
-    self.fadeAbility = thisEntity:FindAbilityByName("pudge_rot_lua")
+    self.fadeAbility = thisEntity:FindAbilityByName("improved_pudge_rot_lua")
     self.devourAbility = thisEntity:FindAbilityByName("pudge_dismember_lua")
 
     -- if he's devouring we won't interrupt
@@ -66,7 +66,7 @@ function BehaviorStartRot:Evaluate()
 end
 
 function BehaviorStartRot:Begin()
-    self.fadeAbility = thisEntity:FindAbilityByName("pudge_rot_lua")
+    self.fadeAbility = thisEntity:FindAbilityByName("improved_pudge_rot_lua")
     self.devourAbility = thisEntity:FindAbilityByName("pudge_dismember_lua")
 
     self.endTime = GameRules:GetGameTime() + .1
@@ -87,7 +87,7 @@ BehaviorStopRot = {}
 
 -- if rot is turned on and there is no enemies around we want to turn it off
 function BehaviorStopRot:Evaluate()
-    self.fadeAbility = thisEntity:FindAbilityByName("pudge_rot_lua")
+    self.fadeAbility = thisEntity:FindAbilityByName("improved_pudge_rot_lua")
     self.devourAbility = thisEntity:FindAbilityByName("pudge_dismember_lua")
 
     -- if he's devouring we won't interrupt
@@ -105,7 +105,7 @@ function BehaviorStopRot:Evaluate()
 end
 
 function BehaviorStopRot:Begin()
-    self.fadeAbility = thisEntity:FindAbilityByName("pudge_rot_lua")    
+    self.fadeAbility = thisEntity:FindAbilityByName("improved_pudge_rot_lua")    
     self.endTime = GameRules:GetGameTime() + .1
 
     self.order =

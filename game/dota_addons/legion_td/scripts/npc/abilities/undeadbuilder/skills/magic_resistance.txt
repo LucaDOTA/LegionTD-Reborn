@@ -4,7 +4,7 @@
     //-------------------------------------------------------------------------------------------------------------
     "BaseClass"             "ability_datadriven"
     "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
-    "AbilityTextureName"            "rubick_null_field"
+    "AbilityTextureName"            "resistance"
 
     // Special
     //-------------------------------------------------------------------------------------------------------------

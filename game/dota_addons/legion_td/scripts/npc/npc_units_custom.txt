@@ -12176,7 +12176,6 @@
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_devourer"
     "Ability2"                          "pudge_rot_lua"
-    "Ability3"                          "ability_empty_3"
   
 
     // Armor
@@ -12499,16 +12498,15 @@
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_disciple"
         "Ability2"                          "acolyte_nether_blast"
-        "Ability3"                          "ability_empty_3"
 
         // Armor
         //----------------------------------------------------------------
-        "ArmorPhysical"         "1"
+        "ArmorPhysical"         "0"
         "MagicalResistance"     "0"
 
         // Attack
         //----------------------------------------------------------------
-        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
         "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
         "AttackDamageMin"       "20"
         "AttackDamageMax"       "25"
@@ -12763,7 +12761,6 @@
         "Ability4"                          "sell"
         "Ability1"                          "feast"
         "Ability2"                          "rage"
-        "Ability3"                          "ability_empty_3"
 
         // Armor
         //----------------------------------------------------------------
@@ -12962,7 +12959,6 @@
         "Ability4"                          "sell"
         "Ability1"                          "magic_resistance"
         "Ability2"                          "frostmourne_datadriven"
-        "Ability3"                          "ability_empty_3"
 
         // Armor
         //----------------------------------------------------------------
@@ -13157,7 +13153,6 @@
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_possessed_corruptor"
         "Ability2"                          "viper_corrosive_skin_datadriven"
-        "Ability3"                          "ability_empty_3"
 
         // Armor
         //----------------------------------------------------------------
@@ -13259,12 +13254,12 @@
 
         // Armor
         //----------------------------------------------------------------
-        "ArmorPhysical"         "1"
+        "ArmorPhysical"         "4"
         "MagicalResistance"     "0"
 
         // Attack
         //----------------------------------------------------------------
-        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
         "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
         "AttackDamageMin"       "45"
         "AttackDamageMax"       "50"
@@ -13297,7 +13292,7 @@
 
         // Status
         //----------------------------------------------------------------
-        "StatusHealth"          "250"
+        "StatusHealth"          "300"
         "StatusHealthRegen"     "0"
         "StatusMana"            "0"
         "StatusManaRegen"       "0"
@@ -13420,8 +13415,7 @@
 
     "Ability4"                          "sell"
     "Ability1"                          "pudge_dismember_lua"
-    "Ability2"                          "pudge_rot_lua"
-    "Ability3"                          "ability_empty_3"
+    "Ability2"                          "improved_pudge_rot_lua"
   
 
     // Armor
@@ -13649,7 +13643,6 @@
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_follower"
         "Ability2"                          "improved_nether_blast"
-        "Ability3"                          "ability_empty_3"
 
         // Armor
         //----------------------------------------------------------------
@@ -13658,7 +13651,7 @@
 
         // Attack
         //----------------------------------------------------------------
-        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
         "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
         "AttackDamageMin"       "30"
         "AttackDamageMax"       "35"
@@ -13826,7 +13819,6 @@
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_tormentor"
     "Ability2"                          "splash_attack"
-    "Ability3"                          "ability_empty_3"
 
     // Armor
     //----------------------------------------------------------------
@@ -14026,8 +14018,7 @@
 
         "Ability4"                          "sell"
         "Ability1"                          "frenzy"
-        "Ability2"                          "ability_empty_2"
-        "Ability3"                          "ability_empty_3"
+        "Ability2"                          "sandking_caustic_finale_datadriven"
 
         // Armor
         //----------------------------------------------------------------
@@ -14128,12 +14119,12 @@
 
         // Armor
         //----------------------------------------------------------------
-        "ArmorPhysical"         "1"
+        "ArmorPhysical"         "2"
         "MagicalResistance"     "0"
 
         // Attack
         //----------------------------------------------------------------
-        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
         "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
         "AttackDamageMin"       "35"
         "AttackDamageMax"       "40"
@@ -14226,11 +14217,10 @@
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_corrupted_golem"
         "Ability2"                          "frostmourne_datadriven"
-        "Ability3"                          "ability_empty_3"
 
         // Armor
         //----------------------------------------------------------------
-        "ArmorPhysical"         "5"
+        "ArmorPhysical"         "8"
         "MagicalResistance"     "0"
 
         // Attack
@@ -14499,106 +14489,107 @@
 }
 
     "tower_undeadbuilder_interrupter"
-    {
-        // General
-        //----------------------------------------------------------------
-        "BaseClass"             "npc_dota_creature"
-        "Model"                 "models/heroes/pugna/pugna.vmdl"
-        "ModelScale"            "0.55"
-        "SoundSet"                      "Hero_Pudge"
-        "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_pugna.vsndevts"
-        "Level"                 "1"
-        "HealthBarOffset"       "120"
-        "Vscripts"              "ai/undeadbuilder/ai_interrupter.lua"
-
-        "Ability1"                          "sell"
-        "Ability2"                          "hell_spikes"
-        "Ability3"                          "perfected_nether_blast"
-
-        // Armor
-        //----------------------------------------------------------------
-        "ArmorPhysical"         "1"
-        "MagicalResistance"     "0"
-
-        // Attack
-        //----------------------------------------------------------------
-        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-        "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-        "AttackDamageMin"       "45"
-        "AttackDamageMax"       "50"
-        "AttackRate"            "1"
-        "AttackAnimationPoint"  "0.5"
-        "AttackAcquisitionRange" "850"
-        "AttackRange"           "600"
-        "ProjectileModel"       "particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf"
-        "ProjectileSpeed"       "700"
+{
+    // General
+    //----------------------------------------------------------------
+    "BaseClass"             "npc_dota_creature"
+    "Model"                 "models/heroes/pugna/pugna.vmdl"
+    "ModelScale"            "0.55"
+    "SoundSet"                      "Hero_Pudge"
+    "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_pugna.vsndevts"
+    "Level"                 "1"
+    "HealthBarOffset"       "120"
+    "Vscripts"              "ai/undeadbuilder/ai_interrupter.lua"
     
-        "LegionAttackType"     "arcane"
-        "LegionDefendType"     "light"
-        "LegionFraction"       "undead"
+    "Ability1"                          "hell_spikes"
+    "Ability2"                          "perfected_nether_blast"
+	"Ability3"                          "sell"
 
-        // Bounty
-        //----------------------------------------------------------------
-        "BountyGoldMin"         "0"
-        "BountyGoldMax"         "0"
+    // Armor
+    //----------------------------------------------------------------
+    "ArmorPhysical"         "5"
+    "MagicalResistance"     "0"
 
-        // Bounds
-        //----------------------------------------------------------------
-        "BoundsHullName"        "DOTA_HULL_SIZE_HERO"
-        "RingRadius"            "30"
+    // Attack
+    //----------------------------------------------------------------
+    "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+    "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
+    "AttackDamageMin"       "45"
+    "AttackDamageMax"       "50"
+    "AttackRate"            "1"
+    "AttackAnimationPoint"  "0.5"
+    "AttackAcquisitionRange" "850"
+    "AttackRange"           "600"
+    "ProjectileModel"       "particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf"
+    "ProjectileSpeed"       "700"
+    
+    "LegionAttackType"     "arcane"
+    "LegionDefendType"     "light"
+    "LegionFraction"       "undead"
 
-        // Movement
-        //----------------------------------------------------------------
-        "MovementCapabilities"  "DOTA_UNIT_CAP_MOVE_GROUND"
-        "MovementSpeed"         "270"
-        "MovementTurnRate"      "0.6"
+    // Bounty
+    //----------------------------------------------------------------
+    "BountyGoldMin"         "0"
+    "BountyGoldMax"         "0"
 
-        // Status
-        //----------------------------------------------------------------
-        "StatusHealth"          "250"
-        "StatusHealthRegen"     "0"
-        "StatusMana"            "0"
-        "StatusManaRegen"       "0"
+    // Bounds
+    //----------------------------------------------------------------
+    "BoundsHullName"        "DOTA_HULL_SIZE_HERO"
+    "RingRadius"            "30"
 
-        // Vision
-        //----------------------------------------------------------------
-        "VisionDaytimeRange"    "1400"
-        "VisionNighttimeRange"  "800"
+    // Movement
+    //----------------------------------------------------------------
+    "MovementCapabilities"  "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"         "270"
+    "MovementTurnRate"      "0.6"
 
-        // Team
-        //----------------------------------------------------------------
-        "TeamName"              "DOTA_TEAM_NEUTRALS"
-        "CombatClassAttack"     "DOTA_COMBAT_CLASS_ATTACK_BASIC"
-        "CombatClassDefend"     "DOTA_COMBAT_CLASS_DEFEND_BASIC"
-        "UnitRelationShipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+    // Status
+    //----------------------------------------------------------------
+    "StatusHealth"          "350"
+    "StatusHealthRegen"     "0"
+    "StatusMana"            "0"
+    "StatusManaRegen"       "0"
 
-        // Creature Data
-        //----------------------------------------------------------------
-        "Creature"
+    // Vision
+    //----------------------------------------------------------------
+    "VisionDaytimeRange"    "1400"
+    "VisionNighttimeRange"  "800"
+
+    // Team
+    //----------------------------------------------------------------
+    "TeamName"              "DOTA_TEAM_NEUTRALS"
+    "CombatClassAttack"     "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+    "CombatClassDefend"     "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+    "UnitRelationShipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+
+    // Creature Data
+    //----------------------------------------------------------------
+    "Creature"
+    {
+        "DisableClumpingBehavior"       "1"
+        "DefaultState"              "Invade"
+        "States"
         {
-            "DisableClumpingBehavior"       "1"
-            "DefaultState"              "Invade"
-            "States"
+            "Invade"
             {
-                "Invade"
-                {
-                    "Name"              "Invade"
-                    "Aggression"        "100.0"
-                    "Avoidance"         "0.0"
-                    "Support"           "0.0"
-                }
+                "Name"              "Invade"
+                "Aggression"        "100.0"
+                "Avoidance"         "0.0"
+                "Support"           "0.0"
             }
-        "AttachWearables"
-			{
+        }
+    "AttachWearables"
+    	{
                     "Wearable1" { "ItemDef" "7574" }
                     "Wearable2" { "ItemDef" "7565" }
                     "Wearable3" { "ItemDef" "7460" }
                     "Wearable4" { "ItemDef" "7573" }
                     "Wearable5" { "ItemDef" "7575" }
 					"Wearable6" { "ItemDef" "7577" }
-			}
-        }
+		}
     }
+}
+
     "tower_undeadbuilder_lifestealer"
 {
     // General
@@ -14693,7 +14684,7 @@
     }
 }
 
-   "tower_undeadbuilder_mutilated_butcher"
+"tower_undeadbuilder_mutilated_butcher"
 {
     // General
     //----------------------------------------------------------------
@@ -14708,8 +14699,6 @@
 
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_abomination"
-    "Ability2"                          "ability_empty_2"
-    "Ability3"                          "ability_empty_3"
   
 
     // Armor
@@ -14723,7 +14712,7 @@
     "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
     "AttackDamageMin"       "80"
     "AttackDamageMax"       "120"
-    "AttackRate"            "2"
+    "AttackRate"            "1"
     "AttackAnimationPoint"  "0.5"
     "AttackAcquisitionRange" "850"
     "AttackRange"           "90"
@@ -14752,7 +14741,7 @@
 
     // Status
     //----------------------------------------------------------------
-    "StatusHealth"          "180"
+    "StatusHealth"          "210"
     "StatusHealthRegen"     "0"
     "StatusMana"            "0"
     "StatusManaRegen"       "0"
@@ -14794,6 +14783,7 @@
     }
 }
 
+
     "tower_undeadbuilder_nether_drake"
     {
         // General
@@ -14809,8 +14799,7 @@
 
         "Ability4"                          "sell"
         "Ability1"                          "undeadbuilder_upgrade_corruptor"
-        "Ability2"                          "ability_empty_2"
-        "Ability3"                          "ability_empty_3"
+        "Ability2"                          "viper_corrosive_skin_datadriven"
 
         // Armor
         //----------------------------------------------------------------
@@ -14908,7 +14897,6 @@
         "Ability4"                          "sell"
         "Ability2"                          "viper_corrosive_skin_datadriven"
         "Ability1"                          "sven_warcry_datadriven"
-        "Ability3"                          "ability_empty_3"
 
         // Armor
         //----------------------------------------------------------------
@@ -14950,7 +14938,7 @@
 
         // Status
         //----------------------------------------------------------------
-        "StatusHealth"          "270"
+        "StatusHealth"          "550"
         "StatusHealthRegen"     "0"
         "StatusMana"            "0"
         "StatusManaRegen"       "0"
@@ -15010,12 +14998,12 @@
 
         // Armor
         //----------------------------------------------------------------
-        "ArmorPhysical"         "1"
+        "ArmorPhysical"         "3"
         "MagicalResistance"     "0"
 
         // Attack
         //----------------------------------------------------------------
-        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
         "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
         "AttackDamageMin"       "45"
         "AttackDamageMax"       "50"
@@ -15207,8 +15195,6 @@
         "Vscripts"              "ai/ai_default.lua"
 
         "Ability1"              "undeadbuilder_upgrade_evil_spirit"
-        "Ability2"              "ability_empty_2"
-        "Ability3"              "ability_empty_3"
         "Ability4"              "sell"
 
         // Armor
@@ -15588,101 +15574,100 @@
         }
     }
     "tower_undeadbuilder_zombie"
-    {
-        // General
-        //----------------------------------------------------------------
-        "BaseClass"             "npc_dota_creature"
-        "Model"                 "models/heroes/undying/undying.vmdl"
-        "ModelScale"            "0.55"
-        "SoundSet"                      "Hero_Undying"
-        "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_undying.vsndevts"
-        "Level"                 "1"
-        "HealthBarOffset"       "120"
-        "Vscripts"              "ai/ai_default.lua"
+{
+    // General
+    //----------------------------------------------------------------
+    "BaseClass"             "npc_dota_creature"
+    "Model"                 "models/heroes/undying/undying.vmdl"
+    "ModelScale"            "0.55"
+    "SoundSet"                      "Hero_Undying"
+    "GameSoundsFile"                "soundevents/game_sounds_heroes/game_sounds_undying.vsndevts"
+    "Level"                 "1"
+    "HealthBarOffset"       "120"
+    "Vscripts"              "ai/ai_default.lua"
 
-        "Ability4"                          "sell"
-        "Ability1"                          "undeadbuilder_upgrade_greater_zombie"
-        "Ability2"                          "ability_empty_2"
-        "Ability3"                          "ability_empty_3"
+    "Ability4"                          "sell"
+    "Ability1"                          "undeadbuilder_upgrade_greater_zombie"
 
-        // Armor
-        //----------------------------------------------------------------
-        "ArmorPhysical"         "5"
-        "MagicalResistance"     "0"
+    // Armor
+    //----------------------------------------------------------------
+    "ArmorPhysical"         "0"
+    "MagicalResistance"     "0"
 
-        // Attack
-        //----------------------------------------------------------------
-        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
-        "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-        "AttackDamageMin"       "40"
-        "AttackDamageMax"       "45"
-        "AttackRate"            "1"
-        "AttackAnimationPoint"  "0.5"
-        "AttackAcquisitionRange" "850"
-        "AttackRange"           "90"
-        "ProjectileModel"       ""
-        "ProjectileSpeed"       "0"
+    // Attack
+    //----------------------------------------------------------------
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
+    "AttackDamageMin"       "33"
+    "AttackDamageMax"       "38"
+    "AttackRate"            "1"
+    "AttackAnimationPoint"  "0.5"
+    "AttackAcquisitionRange" "850"
+    "AttackRange"           "90"
+    "ProjectileModel"       ""
+    "ProjectileSpeed"       "0"
     
-        "LegionAttackType"     "normal"
-        "LegionDefendType"     "medium"
-        "LegionFraction"       "undead"
+    "LegionAttackType"     "normal"
+    "LegionDefendType"     "medium"
+    "LegionFraction"       "undead"
 
-        // Bounty
-        //----------------------------------------------------------------
-        "BountyGoldMin"         "0"
-        "BountyGoldMax"         "0"
+    // Bounty
+    //----------------------------------------------------------------
+    "BountyGoldMin"         "0"
+    "BountyGoldMax"         "0"
 
-        // Bounds
-        //----------------------------------------------------------------
-        "BoundsHullName"        "DOTA_HULL_SIZE_HERO"
-        "RingRadius"            "30"
+    // Bounds
+    //----------------------------------------------------------------
+    "BoundsHullName"        "DOTA_HULL_SIZE_HERO"
+    "RingRadius"            "30"
 
-        // Movement
-        //----------------------------------------------------------------
-        "MovementCapabilities"  "DOTA_UNIT_CAP_MOVE_GROUND"
-        "MovementSpeed"         "270"
-        "MovementTurnRate"      "0.6"
+    // Movement
+    //----------------------------------------------------------------
+    "MovementCapabilities"  "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"         "270"
+    "MovementTurnRate"      "0.6"
 
-        // Status
-        //----------------------------------------------------------------
-        "StatusHealth"          "240"
-        "StatusHealthRegen"     "0"
-        "StatusMana"            "0"
-        "StatusManaRegen"       "0"
+    // Status
+    //----------------------------------------------------------------
+    "StatusHealth"          "50"
+    "StatusHealthRegen"     "0"
+    "StatusMana"            "0"
+    "StatusManaRegen"       "0"
 
-        // Vision
-        //----------------------------------------------------------------
-        "VisionDaytimeRange"    "1400"
-        "VisionNighttimeRange"  "800"
+    // Vision
+    //----------------------------------------------------------------
+    "VisionDaytimeRange"    "1400"
+    "VisionNighttimeRange"  "800"
 
-        // Team
-        //----------------------------------------------------------------
-        "TeamName"              "DOTA_TEAM_NEUTRALS"
-        "CombatClassAttack"     "DOTA_COMBAT_CLASS_ATTACK_BASIC"
-        "CombatClassDefend"     "DOTA_COMBAT_CLASS_DEFEND_BASIC"
-        "UnitRelationShipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+    // Team
+    //----------------------------------------------------------------
+    "TeamName"              "DOTA_TEAM_NEUTRALS"
+    "CombatClassAttack"     "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+    "CombatClassDefend"     "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+    "UnitRelationShipClass" "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 
-        // Creature Data
-        //----------------------------------------------------------------
-        "Creature"
+    // Creature Data
+    //----------------------------------------------------------------
+    "Creature"
+    {
+        "DisableClumpingBehavior"       "1"
+        "DefaultState"              "Invade"
+        "States"
         {
-            "DisableClumpingBehavior"       "1"
-            "DefaultState"              "Invade"
-            "States"
+            "Invade"
             {
-                "Invade"
-                {
-                    "Name"              "Invade"
-                    "Aggression"        "100.0"
-                    "Avoidance"         "0.0"
-                    "Support"           "0.0"
-                }
+                "Name"              "Invade"
+                "Aggression"        "100.0"
+                "Avoidance"         "0.0"
+                "Support"           "0.0"
             }
-        "AttachWearables"
-        {
         }
-        }
+    "AttachWearables"
+    {
     }
+    }
+}
+
 
 	"tower_undeadbuilder_greater_zombie"
 {
@@ -15742,7 +15727,7 @@
 
     // Status
     //----------------------------------------------------------------
-    "StatusHealth"          "350"
+    "StatusHealth"          "280"
     "StatusHealthRegen"     "0"
     "StatusMana"            "0"
     "StatusManaRegen"       "0"

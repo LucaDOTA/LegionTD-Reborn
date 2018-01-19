@@ -13,8 +13,7 @@
 
     "Ability4"                          "sell"
     "Ability1"                          "pudge_dismember_lua"
-    "Ability2"                          "pudge_rot_lua"
-    "Ability3"                          "ability_empty_3"
+    "Ability2"                          "improved_pudge_rot_lua"
   
 
     // Armor

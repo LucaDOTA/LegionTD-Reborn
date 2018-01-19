@@ -14,7 +14,6 @@
     "Ability4"                          "sell"
     "Ability1"                          "undeadbuilder_upgrade_tormentor"
     "Ability2"                          "splash_attack"
-    "Ability3"                          "ability_empty_3"
 
     // Armor
     //----------------------------------------------------------------
