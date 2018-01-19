@@ -1,3 +1,5 @@
+require('modifier_hero_invulnerable_lua')
+
 if Player == nil then
     Player = class({})
 end
@@ -207,8 +209,9 @@ function Player:SetNPC(npc)
         self:CreateTangoTicker()
         return CHECKING_INTERVALL
     end)
-    
-    npc:AddNewModifier(nil, nil, "modifier_invulnerable", {})
+	
+    LinkLuaModifier ("modifier_hero_invulnerable_lua", "modifier_hero_invulnerable_lua", LUA_MODIFIER_MOTION_NONE)
+    npc:AddNewModifier(npc, self, "modifier_hero_invulnerable_lua", {})
     Timers:CreateTimer(0.2, function()
         self:ToSpawn()
     end)
