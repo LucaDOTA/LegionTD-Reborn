@@ -13,12 +13,12 @@
         "01"
         {
             "var_type"                      "FIELD_INTEGER"
-            "magic_damage_reduction_pct"    "10 14 18 22"
+            "magic_damage_reduction_pct"    "50"
         }
         "02"
         {
             "var_type"                      "FIELD_INTEGER"
-            "radius"                        "900 900 900 900"
+            "radius"                        "900"
         }
     }
     

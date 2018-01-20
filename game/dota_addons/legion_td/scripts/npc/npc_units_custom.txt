@@ -5826,8 +5826,8 @@
         "LegionDefendType" "light"
         "LegionExperience" "10"
         "LegionFraction"   "wave"
-        "BountyGoldMin" "4.0"
-        "BountyGoldMax" "4.0"
+        "BountyGoldMin" "5.0"
+        "BountyGoldMax" "5.0"
         "BoundsHullName"    "DOTA_HULL_SIZE_SMALL"
         "CollisionSize" "50"
         "RingRadius"    "50"
@@ -7053,8 +7053,8 @@
     	"LegionDefendType"	"light"
     	"LegionExperience"	"20"
     	"LegionFraction"	"wave"
-    	"BountyGoldMin"	"5.0"
-    	"BountyGoldMax"	"5.0"
+    	"BountyGoldMin"	"6.0"
+    	"BountyGoldMax"	"6.0"
     	"BoundsHullName"	"DOTA_HULL_SIZE_SMALL"
     	"CollisionSize"	"50"
     	"RingRadius"	"50"
@@ -7901,8 +7901,8 @@
     	"LegionDefendType"	"medium"
     	"LegionExperience"	"25"
     	"LegionFraction"	"wave"
-    	"BountyGoldMin"	"5.0"
-    	"BountyGoldMax"	"5.0"
+    	"BountyGoldMin"	"6.0"
+    	"BountyGoldMax"	"6.0"
     	"BoundsHullName"	"DOTA_HULL_SIZE_SMALL"
     	"CollisionSize"	"50"
     	"RingRadius"	"50"
@@ -9215,8 +9215,8 @@
 	"LegionDefendType"	"heavy"
 	"LegionExperience"	"12"
 	"LegionFraction"	"wave"
-	"BountyGoldMin"	"5.0"
-	"BountyGoldMax"	"5.0"
+	"BountyGoldMin"	"6.0"
+	"BountyGoldMax"	"6.0"
 	"BoundsHullName"	"DOTA_HULL_SIZE_SMALL"
 	"CollisionSize"	"50"
 	"RingRadius"	"50"
@@ -10657,8 +10657,8 @@
     	"LegionDefendType"	"light"
     	"LegionExperience"	"10"
     	"LegionFraction"	"wave"
-    	"BountyGoldMin"	"5.0"
-    	"BountyGoldMax"	"5.0"
+    	"BountyGoldMin"	"6.0"
+    	"BountyGoldMax"	"6.0"
     	"BoundsHullName"	"DOTA_HULL_SIZE_SMALL"
     	"CollisionSize"	"50"
     	"RingRadius"	"50"
@@ -12962,7 +12962,7 @@
 
         // Armor
         //----------------------------------------------------------------
-        "ArmorPhysical"         "7"
+        "ArmorPhysical"         "8"
         "MagicalResistance"     "0"
 
         // Attack
@@ -13000,7 +13000,7 @@
 
         // Status
         //----------------------------------------------------------------
-        "StatusHealth"          "1300"
+        "StatusHealth"          "1500"
         "StatusHealthRegen"     "0"
         "StatusMana"            "0"
         "StatusManaRegen"       "0"
@@ -13163,8 +13163,8 @@
         //----------------------------------------------------------------
         "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
         "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-        "AttackDamageMin"       "80"
-        "AttackDamageMax"       "130"
+        "AttackDamageMin"       "100"
+        "AttackDamageMax"       "140"
         "AttackRate"            "0.5"
         "AttackAnimationPoint"  "0.3"
         "AttackAcquisitionRange" "850"
@@ -13194,7 +13194,7 @@
 
         // Status
         //----------------------------------------------------------------
-        "StatusHealth"          "350"
+        "StatusHealth"          "450"
         "StatusHealthRegen"     "0"
         "StatusMana"            "0"
         "StatusManaRegen"       "0"
@@ -13829,8 +13829,8 @@
     //----------------------------------------------------------------
     "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
     "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-    "AttackDamageMin"       "100"
-    "AttackDamageMax"       "130"
+    "AttackDamageMin"       "150"
+    "AttackDamageMax"       "160"
     "AttackRate"            "0.5"
     "AttackAnimationPoint"  "0.2"
     "AttackAcquisitionRange" "850"
@@ -13860,7 +13860,7 @@
 
     // Status
     //----------------------------------------------------------------
-    "StatusHealth"          "200"
+    "StatusHealth"          "360"
     "StatusHealthRegen"     "0"
     "StatusMana"            "0"
     "StatusManaRegen"       "0"
@@ -14703,7 +14703,7 @@
 
     // Armor
     //----------------------------------------------------------------
-    "ArmorPhysical"         "6"
+    "ArmorPhysical"         "2"
     "MagicalResistance"     "0"
 
     // Attack
@@ -14712,7 +14712,7 @@
     "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
     "AttackDamageMin"       "80"
     "AttackDamageMax"       "120"
-    "AttackRate"            "1"
+    "AttackRate"            "0.90"
     "AttackAnimationPoint"  "0.5"
     "AttackAcquisitionRange" "850"
     "AttackRange"           "90"
@@ -14741,7 +14741,7 @@
 
     // Status
     //----------------------------------------------------------------
-    "StatusHealth"          "210"
+    "StatusHealth"          "220"
     "StatusHealthRegen"     "0"
     "StatusMana"            "0"
     "StatusManaRegen"       "0"
@@ -14810,8 +14810,8 @@
         //----------------------------------------------------------------
         "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
         "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-        "AttackDamageMin"       "50"
-        "AttackDamageMax"       "70"
+        "AttackDamageMin"       "80"
+        "AttackDamageMax"       "100"
         "AttackRate"            "0.5"
         "AttackAnimationPoint"  "0.3"
         "AttackAcquisitionRange" "850"
@@ -14907,8 +14907,8 @@
         //----------------------------------------------------------------
         "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
         "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-        "AttackDamageMin"       "140"
-        "AttackDamageMax"       "200"
+        "AttackDamageMin"       "180"
+        "AttackDamageMax"       "240"
         "AttackRate"            "0.5"
         "AttackAnimationPoint"  "0.3"
         "AttackAcquisitionRange" "850"
@@ -14938,7 +14938,7 @@
 
         // Status
         //----------------------------------------------------------------
-        "StatusHealth"          "550"
+        "StatusHealth"          "650"
         "StatusHealthRegen"     "0"
         "StatusMana"            "0"
         "StatusManaRegen"       "0"
@@ -15100,7 +15100,7 @@
     
     // Armor
     //----------------------------------------------------------------
-    "ArmorPhysical"         "1"
+    "ArmorPhysical"         "4"
     "MagicalResistance"     "0"
 
     // Attack
@@ -15108,7 +15108,7 @@
     "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
     "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
     "AttackDamageMin"       "200"
-    "AttackDamageMax"       "300"
+    "AttackDamageMax"       "220"
     "AttackRate"            "0.5"
     "AttackAnimationPoint"  "0.2"
     "AttackAcquisitionRange" "850"
@@ -15138,7 +15138,7 @@
 
     // Status
     //----------------------------------------------------------------
-    "StatusHealth"          "160"
+    "StatusHealth"          "660"
     "StatusHealthRegen"     "0"
     "StatusMana"            "0"
     "StatusManaRegen"       "0"
@@ -15206,8 +15206,8 @@
         //----------------------------------------------------------------
         "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
         "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-        "AttackDamageMin"       "70"
-        "AttackDamageMax"       "100"
+        "AttackDamageMin"       "110"
+        "AttackDamageMax"       "120"
         "AttackRate"            "0.5"
         "AttackAnimationPoint"  "0.2"
         "AttackAcquisitionRange" "850"
@@ -15304,8 +15304,8 @@
     //----------------------------------------------------------------
     "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
     "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-    "AttackDamageMin"       "130"
-    "AttackDamageMax"       "160"
+    "AttackDamageMin"       "180"
+    "AttackDamageMax"       "200"
     "AttackRate"            "0.5"
     "AttackAnimationPoint"  "0.2"
     "AttackAcquisitionRange" "850"
@@ -15335,7 +15335,7 @@
 
     // Status
     //----------------------------------------------------------------
-    "StatusHealth"          "260"
+    "StatusHealth"          "450"
     "StatusHealthRegen"     "0"
     "StatusMana"            "0"
     "StatusManaRegen"       "0"
@@ -15591,15 +15591,15 @@
 
     // Armor
     //----------------------------------------------------------------
-    "ArmorPhysical"         "0"
+    "ArmorPhysical"         "1"
     "MagicalResistance"     "0"
 
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
     "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-    "AttackDamageMin"       "33"
-    "AttackDamageMax"       "38"
+    "AttackDamageMin"       "35"
+    "AttackDamageMax"       "40"
     "AttackRate"            "1"
     "AttackAnimationPoint"  "0.5"
     "AttackAcquisitionRange" "850"
@@ -15689,15 +15689,15 @@
 
     // Armor
     //----------------------------------------------------------------
-    "ArmorPhysical"         "5"
+    "ArmorPhysical"         "3"
     "MagicalResistance"     "0"
 
     // Attack
     //----------------------------------------------------------------
     "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
     "AttackDamageType"      "DAMAGE_TYPE_ArmorPhysical"
-    "AttackDamageMin"       "50"
-    "AttackDamageMax"       "70"
+    "AttackDamageMin"       "70"
+    "AttackDamageMax"       "80"
     "AttackRate"            "1"
     "AttackAnimationPoint"  "0.5"
     "AttackAcquisitionRange" "850"
@@ -15727,7 +15727,7 @@
 
     // Status
     //----------------------------------------------------------------
-    "StatusHealth"          "280"
+    "StatusHealth"          "300"
     "StatusHealthRegen"     "0"
     "StatusMana"            "0"
     "StatusManaRegen"       "0"
