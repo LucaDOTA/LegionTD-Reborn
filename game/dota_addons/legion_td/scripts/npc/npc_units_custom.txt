@@ -14022,7 +14022,7 @@
 
         // Armor
         //----------------------------------------------------------------
-        "ArmorPhysical"         "5"
+        "ArmorPhysical"         "6"
         "MagicalResistance"     "0"
 
         // Attack
@@ -14060,7 +14060,7 @@
 
         // Status
         //----------------------------------------------------------------
-        "StatusHealth"          "200"
+        "StatusHealth"          "600"
         "StatusHealthRegen"     "0"
         "StatusMana"            "0"
         "StatusManaRegen"       "0"
