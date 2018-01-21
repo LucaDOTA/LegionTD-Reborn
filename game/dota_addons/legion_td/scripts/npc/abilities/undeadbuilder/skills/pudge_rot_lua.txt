@@ -48,7 +48,7 @@
 		"04"
 		{
 			"var_type"				"FIELD_INTEGER"
-			"rot_damage"				"35 60 85 110"
+			"rot_damage"				"25"
 		}
 	}
 }
